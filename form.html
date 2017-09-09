@@ -16,33 +16,29 @@
                     <div>Опыт работы: нет</div>
                 </div>
             </div>
-            <div>
-                <form>Дата собеседования: <input type="date">&#128197;</form>
-            </div>
-            <div>
-                <form>
+            <form>
+                <div>Дата собеседования: <input type="date">&#128197;</div>
+                <div>
                     <p style="margin-bottom: 0;">Уровень английского:</p>
                     <input type="radio" name="english_level" value="Elementary"> плохо
                     <input type="radio" name="english_level" value="Intermediate" checked> средне
                     <input type="radio" name="english_level" value="Advanced"> хорошо
                     <input type="radio" name="english_level" value="Proficiency"> превосходно
-                </form>
-            </div>
-            <div>
-                <form>
+                </div>
+                <div>
                     <p style="margin-bottom: 0;">Ключевые навыки</p>
-                    <ul style="margin-top: 0;">
+                    <ul style="margin-top: 0; margin-bottom: 0;">
                         <li>HTML</li>
                         <li>CSS/LESS</li>
                         <li>JavaScript</li>
                         <li>...</li>
                     </ul>
-                    <input type="text" name="skills" value="введите навык...">
-                    <input type="submit" name="skills" value="добавить в список">
-                </form>
-            </div>
-            <div>
-                <form>
+                    <div>
+                        <input type="text" name="skills" value="введите навык...">
+                        <input type="submit" name="skills" value="добавить в список">
+                    </div>
+                </div>
+                <div>
                     <p>Коммуникабельность:
                     <select>                            
                             <option value="low">низкая</option>
@@ -50,46 +46,43 @@
                             <option value="high">высокая</option>
                     </select>
                     </p>
-                </form>
-            </div>
-            <div>
-                <form>
+                </div>
+                <div>
                     <p>Желаемая з/п: <input type="text" value="введите значение..."></p>
-                </form>
-            </div>
-            <div>
-                <form>
+                </div>
+                <div>
                     <p style="margin-bottom: 0;">Подходит по критериям:</p>
                     <input type="checkbox" name="criteria">Знание английского
                     <input type="checkbox" name="criteria">Оклад
                     <input type="checkbox" name="criteria">Навыки
                     <input type="checkbox" name="criteria" checked>Сразу видно, что свой человек
-                </form>
-            </div>
+                </div>
+            </form>
             <div>
-                <p style="margin-bottom: 0;">Образование, курсы и т.п.</p>
-                <div style="display: table; border: 1px solid black; border-collapse: collapse; margin-top: 0; width: 800px;">
-                        <div style="display: table-row; border: 1px solid black;">
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px; width: 15px;"><strong>#</strong></div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;"><strong>сроки обучения</strong></div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;"><strong>Наименование учебного заведения, курсов...</strong></div>
-                        </div>
-                        <div style="display: table-row; border: 1px solid black;">
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;">1</div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;">01.01.2010 - 01.01.2013</div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;">там - сям</div>
-                        </div>
-                        <div style="display: table-row; border: 1px solid black;">
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;">2</div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;">01.01.2014 - 01.01.2017</div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;"></div>
-                        </div>
-                        <div style="display: table-row; border: 1px solid black;">
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;">3</div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;"></div>
-                            <div style="display: table-cell; border: 1px solid black; padding-left: 10px;"></div>
-                        </div>
-                    </div>
+            	<p style="margin-bottom: 0;">Образование, курсы и т.п.</p>
+                <table border=1 bordercolor="#000000" cellspacing=0 cellpadding=5>
+                	<tbody>
+                    	<tr style="font-weight: bold">
+                        	<td>#</td>
+                            <td>сроки обучения</td>
+                            <td>Наименование учебного заведения, курсов...</td>
+                    	</tr>
+                    	<tr>
+                        	<td>1</td>
+                            <td>01.01.2010 - 01.01.2013</td>
+                            <td></td>
+                    	</tr>
+                    	<tr>
+                        	<td>2</td>
+                            <td>01.01.2014 - 01.01.2017</td>
+                            <td>там - сям</td>
+                    	</tr>
+                    	<tr>
+                        	<td>...</td>
+                            <td></td>
+                            <td></td>
+                    	</tr>
+                    </tbody>
                 </table>
             </div>
     </body>    
